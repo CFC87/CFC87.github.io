@@ -1,0 +1,152 @@
+/* Visual style adapted from jonbarron.info */
+
+:root {
+  --link: #1772d0;
+  --link-hover: #f09228;
+  --highlight: #ffffd0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 8px;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #000;
+  background: #fff;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: var(--link-hover);
+}
+
+h2 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.page {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.highlight {
+  background-color: var(--highlight);
+}
+
+/* Intro */
+.intro {
+  display: flex;
+  align-items: center;
+}
+
+.intro-text {
+  width: 63%;
+  padding: 2.5%;
+}
+
+.intro-photo {
+  width: 37%;
+  padding: 2.5%;
+}
+
+.name {
+  margin: 0;
+  padding-top: 20px;
+  font-size: 32px;
+  text-align: center;
+}
+
+.links {
+  text-align: center;
+}
+
+.profile {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Sections */
+.section {
+  padding: 16px 20px;
+}
+
+.lines {
+  margin: 14px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.lines li {
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.lines strong {
+  font-size: 15px;
+}
+
+/* Publications */
+.pubs {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.pub {
+  padding: 10px 0;
+}
+
+/* Extend the highlight background past the text while keeping it aligned */
+.pub.highlight {
+  margin: 0 -12px;
+  padding: 10px 12px;
+}
+
+.pub p {
+  margin: 6px 0 0;
+}
+
+.papertitle {
+  font-weight: 700;
+}
+
+/* Footer */
+.footer {
+  padding: 24px 0 8px;
+  text-align: right;
+  font-size: small;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .intro {
+    flex-direction: column-reverse;
+  }
+
+  .intro-text {
+    width: 100%;
+  }
+
+  .intro-photo {
+    width: 60%;
+  }
+
+  .section {
+    padding: 16px 8px;
+  }
+}

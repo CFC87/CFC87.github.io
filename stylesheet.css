@@ -125,6 +125,14 @@ h2 {
   font-weight: 700;
 }
 
+/* Visitor globe */
+.visitors {
+  width: 300px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding-top: 24px;
+}
+
 /* Footer */
 .footer {
   padding: 24px 0 8px;

@@ -11,139 +11,175 @@
     <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap">
-    <link rel="stylesheet" href="stylesheet.css?v=2">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,600&display=swap">
+    <link rel="stylesheet" href="stylesheet.css?v=4">
   </head>
 
   <body>
     <main class="page">
 
       <!-- Intro -->
-      <header class="intro">
-        <div class="intro-text">
-          <p class="name">Fanchao Chen</p>
+      <header class="hero">
+        <div class="hero-text">
+          <h1>Fanchao Chen</h1>
           <p>
             I am a final-year CS PhD student at the <a href="https://www.cs.wisc.edu/">University of Wisconsin–Madison</a>,
             advised by Prof. <a href="https://shivaram.org/">Shivaram Venkataraman</a>.
             I am currently a research intern on the Nemotron Post-training Team at NVIDIA.
             Previously, I worked at ByteDance Seed, Moonshot AI (Kimi), and Microsoft Research Asia.
-            I received my bachelor's degree in Intelligence Science and Technology from <a href="https://www.fudan.edu.cn/">Fudan University</a>.
+          </p>
+          <p>
             My research interests are about <strong>Efficient AI Systems and Continual Learning</strong>.
           </p>
-          <p class="links">
-            <a href="mailto:chenfanchao_robin@outlook.com">Email</a> &nbsp;/&nbsp;
-            <a href="https://drive.google.com/file/d/1nldHpsm0CaH6DaAIO9yKFGCRVcZh0vfV/view?usp=sharing">CV</a> &nbsp;/&nbsp;
-            <a href="https://www.linkedin.com/in/chenfanchao/">LinkedIn</a> &nbsp;/&nbsp;
-            <a href="https://x.com/FanchaoChen">Twitter</a> &nbsp;/&nbsp;
-            <a href="https://github.com/CFC87">GitHub</a>
-          </p>
+          <nav class="links">
+            <a class="chip" href="mailto:chenfanchao_robin@outlook.com"><span class="icon icon-email"></span>Email</a>
+            <a class="chip" href="https://drive.google.com/file/d/1nldHpsm0CaH6DaAIO9yKFGCRVcZh0vfV/view?usp=sharing"><span class="icon icon-cv"></span>CV</a>
+            <a class="chip" href="https://www.linkedin.com/in/chenfanchao/"><span class="icon icon-linkedin"></span>LinkedIn</a>
+            <a class="chip" href="https://x.com/FanchaoChen"><span class="icon icon-x"></span>Twitter</a>
+            <a class="chip" href="https://github.com/CFC87"><span class="icon icon-github"></span>GitHub</a>
+            <a class="chip" href="blog/"><span class="icon icon-blog"></span>Blog</a>
+          </nav>
         </div>
-        <div class="intro-photo">
-          <a href="images/profile.jpg"><img class="profile" src="images/profile.jpg" alt="Fanchao Chen"></a>
-        </div>
+        <img class="portrait" src="images/profile.jpg" alt="Fanchao Chen">
       </header>
 
       <!-- Work Experience -->
       <section class="section">
-        <h2>Work Experience</h2>
-        <ul class="lines">
-          <li><strong>Research Intern @ NVIDIA</strong>, Jun 2026 – Present.
-            Nemotron Post-Training: Agentic Systems and Continual Learning.</li>
-          <li><strong>Student Researcher @ ByteDance Seed</strong>, Jun 2024 – Jun 2026.
-            Seed-Infra-Training: RL Infrastructure and CUDA Agents.</li>
-          <li><strong>LLM Engineer Intern @ Moonshot AI (Kimi)</strong>, Jun 2023 – Sep 2023.
-            LLM Training Systems.</li>
-          <li><strong>Research Intern @ Microsoft Research Asia</strong>, Oct 2022 – Jan 2023.
-            Cloud Systems and Cluster Scheduling.</li>
+        <h2 class="label">Work Experience</h2>
+        <ul class="entries">
+          <li class="entry entry-logo">
+            <span class="logo"><img src="images/logos/nvidia.svg" alt="NVIDIA"></span>
+            <div class="entry-body">
+              <div class="entry-head"><strong>Research Intern @ NVIDIA</strong><span class="date">Jun 2026 – Present</span></div>
+              <p class="entry-desc">Nemotron Post-Training: Agentic Systems and Continual Learning</p>
+            </div>
+          </li>
+          <li class="entry entry-logo">
+            <span class="logo"><img src="images/logos/bytedance.svg" alt="ByteDance"></span>
+            <div class="entry-body">
+              <div class="entry-head"><strong>Student Researcher @ ByteDance Seed</strong><span class="date">Jun 2024 – Jun 2026</span></div>
+              <p class="entry-desc">Seed-Infra-Training: RL Infrastructure and CUDA Agents</p>
+            </div>
+          </li>
+          <li class="entry entry-logo">
+            <span class="logo"><img src="images/logos/kimi.svg" alt="Kimi"></span>
+            <div class="entry-body">
+              <div class="entry-head"><strong>LLM Engineer Intern @ Moonshot AI (Kimi)</strong><span class="date">Jun 2023 – Sep 2023</span></div>
+              <p class="entry-desc">LLM Training Systems</p>
+            </div>
+          </li>
+          <li class="entry entry-logo">
+            <span class="logo"><img src="images/logos/microsoft.svg" alt="Microsoft"></span>
+            <div class="entry-body">
+              <div class="entry-head"><strong>Research Intern @ Microsoft Research Asia</strong><span class="date">Oct 2022 – Jan 2023</span></div>
+              <p class="entry-desc">Cloud Systems and Cluster Scheduling</p>
+            </div>
+          </li>
         </ul>
       </section>
 
       <!-- Selected Publications -->
       <section class="section">
-        <h2>Selected Publications</h2>
-        <p>* indicates equal contribution.<!-- Representative papers are <span class="highlight">highlighted</span>. --></p>
+        <h2 class="label">Selected Publications</h2>
+        <p class="note">* indicates equal contribution.<!-- Representative papers are <span class="highlight">highlighted</span>. --></p>
 
-        <div class="pubs">
-
-          <div class="pub">
-            <span class="papertitle">Deriving a Quantization-Aware Distillation Recipe for NVFP4 Inference Accuracy Recovery</span>
-            <br>
-            <strong>Fanchao Chen</strong>,
-            <a href="https://minghaoyan.netlify.app/">Minghao Yan</a>,
-            <a href="https://people.eecs.berkeley.edu/~jiantao/">Jiantao Jiao</a>,
-            <a href="https://shivaram.org/">Shivaram Venkataraman</a>
-            <br>
-            <em>arXiv</em>, 2026
-            <p>
+        <article class="pub">
+          <span class="venue">arXiv 2026</span>
+          <div>
+            <h3>Deriving a Quantization-Aware Distillation Recipe for NVFP4 Inference Accuracy Recovery</h3>
+            <p class="authors">
+              <strong>Fanchao Chen</strong>,
+              <a href="https://minghaoyan.netlify.app/">Minghao Yan</a>,
+              <a href="https://people.eecs.berkeley.edu/~jiantao/">Jiantao Jiao</a>,
+              <a href="https://shivaram.org/">Shivaram Venkataraman</a>
+            </p>
+            <p class="summary">
               We develop an NVFP4 quantization-aware distillation (QAD) recipe from open data, using domain-specific failure
               analysis and small-scale experiments to guide data selection and iteration. On Nemotron models, it uses up to
               4.7× fewer training tokens than NVIDIA's official QAD recipe while recovering more of the quantization-induced
               accuracy loss.
             </p>
           </div>
+        </article>
 
-          <div class="pub">
-            <a href="https://arxiv.org/abs/2609.36864"><span class="papertitle">Where the Model Changes Its Mind: Hindsight-Divergence Localization for Efficient Reinforcement Learning with Verifiable Rewards</span></a>
-            <br>
-            <strong>Fanchao Chen</strong>*,
-            <a href="https://hengyuf.github.io/">Hengyu Fu</a>*,
-            <a href="https://shivaram.org/">Shivaram Venkataraman</a>,
-            <a href="https://people.eecs.berkeley.edu/~jiantao/">Jiantao Jiao</a>
-            <br>
-            <em>arXiv</em>, 2026
-            <p>
+        <article class="pub">
+          <span class="venue">arXiv 2026</span>
+          <div>
+            <h3><a href="https://arxiv.org/abs/2609.36864">Where the Model Changes Its Mind: Hindsight-Divergence Localization for Efficient Reinforcement Learning with Verifiable Rewards</a></h3>
+            <p class="authors">
+              <strong>Fanchao Chen</strong>*,
+              <a href="https://hengyuf.github.io/">Hengyu Fu</a>*,
+              <a href="https://shivaram.org/">Shivaram Venkataraman</a>,
+              <a href="https://people.eecs.berkeley.edu/~jiantao/">Jiantao Jiao</a>
+            </p>
+            <p class="summary">
               HDL turns the hindsight signal from token-level supervision into trajectory branching: it uses hindsight-induced
               changes in token log-probabilities to pick branch points and samples new continuations from shared prefixes.
               Compared with GRPO, it speeds up rollouts by up to 1.8× while improving performance on math, code, and agentic tasks.
             </p>
           </div>
+        </article>
 
-          <div class="pub">
-            <a href="https://arxiv.org/abs/2609.22870"><span class="papertitle">Towards Full Pipeline FP8 Reinforcement Learning for LLMs</span></a>
-            <br>
-            <strong>Fanchao Chen</strong>,
-            <a href="https://ziheng.org/">Ziheng Jiang</a>,
-            <a href="https://ultra-seven.github.io/">Ziyun Wei</a>,
-            Zheng Zhong,
-            Du Li,
-            Chi Zhang,
-            <a href="https://sites.google.com/view/haibinlin/">Haibin Lin</a>,
-            <a href="https://shivaram.org/">Shivaram Venkataraman</a>
-            <br>
-            <em>COLM</em>, 2026
-            <p>
+        <article class="pub">
+          <span class="venue">COLM 2026</span>
+          <div>
+            <h3><a href="https://arxiv.org/abs/2609.22870">Towards Full Pipeline FP8 Reinforcement Learning for LLMs</a></h3>
+            <p class="authors">
+              <strong>Fanchao Chen</strong>,
+              <a href="https://ziheng.org/">Ziheng Jiang</a>,
+              <a href="https://ultra-seven.github.io/">Ziyun Wei</a>,
+              Zheng Zhong,
+              Du Li,
+              Chi Zhang,
+              <a href="https://sites.google.com/view/haibinlin/">Haibin Lin</a>,
+              <a href="https://shivaram.org/">Shivaram Venkataraman</a>
+            </p>
+            <p class="summary">
               We enable both rollout and training in FP8 for LLM post-training. We find that FP8 quantization
               distorts importance ratios and causes over-clipping, and propose Calibrated Clipping to stabilize training,
               recovering BF16-level performance with up to 1.5× training throughput.
             </p>
           </div>
+        </article>
 
-          <div class="pub">
-            <span class="papertitle">PipeTune: Tuning Pipeline Parallelism for Efficient Vision-Language Model Training</span>
-            <br>
-            <strong>Fanchao Chen</strong>,
-            <a href="https://shivaram.org/">Shivaram Venkataraman</a>
-            <br>
-            <em>arXiv</em>, 2026
-            <p>
+        <article class="pub">
+          <span class="venue">arXiv 2026</span>
+          <div>
+            <h3>PipeTune: Tuning Pipeline Parallelism for Efficient Vision-Language Model Training</h3>
+            <p class="authors">
+              <strong>Fanchao Chen</strong>,
+              <a href="https://shivaram.org/">Shivaram Venkataraman</a>
+            </p>
+            <p class="summary">
               Heterogeneous sequence lengths and modality mixes in VLM training data create pipeline bubbles. PipeTune jointly
               tunes micro-batch packing, ordering, and sizing, and moves vision-encoder computation into idle time, guided by a
               lightweight simulator that adapts as the data mix shifts. It speeds up training by up to 1.25× without changing
               training semantics.
             </p>
           </div>
-
-        </div>
+        </article>
       </section>
 
       <!-- Teaching & Service -->
       <section class="section">
-        <h2>Teaching &amp; Service</h2>
-        <ul class="lines">
-          <li><strong>Teaching Assistant</strong>, COMPSCI 544: Introduction to Big Data Systems, Spring 2024.</li>
-          <li><strong>Teaching Assistant</strong>, ECE 252: Introduction to Computer Engineering, Fall 2023.</li>
-          <li><strong>Conference Reviewer</strong>: ICLR 2027, COLM 2026, ICML 2026, NeurIPS 2025, COLM 2025, ICML 2025, ICLR 2025, NeurIPS 2024.</li>
-          <li><strong>Artifact Evaluation Committee</strong>: ASPLOS 2025, SOSP 2024.</li>
+        <h2 class="label">Teaching &amp; Service</h2>
+        <ul class="entries">
+          <li class="entry">
+            <div class="entry-head"><strong>Teaching Assistant</strong></div>
+            <p class="entry-desc">
+              COMPSCI 544: Introduction to Big Data Systems (Spring 2024)
+              <br>
+              ECE 252: Introduction to Computer Engineering (Fall 2023)
+            </p>
+          </li>
+          <li class="entry">
+            <div class="entry-head"><strong>Conference Reviewer</strong></div>
+            <p class="entry-desc">ICLR 2027, COLM 2026, ICML 2026, NeurIPS 2025, COLM 2025, ICML 2025, ICLR 2025, NeurIPS 2024</p>
+          </li>
+          <li class="entry">
+            <div class="entry-head"><strong>Artifact Evaluation Committee</strong></div>
+            <p class="entry-desc">ASPLOS 2025, SOSP 2024</p>
+          </li>
         </ul>
       </section>
 
@@ -152,7 +188,7 @@
       </div>
 
       <footer class="footer">
-        Website template from <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a>.
+        <span>© 2026 Fanchao Chen</span>
       </footer>
 
     </main>

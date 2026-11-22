@@ -1,0 +1,30 @@
+title: Fanchao Chen
+description: Fanchao Chen is a PhD student at UW–Madison working on efficient AI systems and continual learning.
+author: Fanchao Chen
+url: https://cfc87.github.io
+baseurl: ""
+lang: en
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax   # emits \( \) and \[ \]; rendered client-side by KaTeX
+  syntax_highlighter: rouge
+highlighter: rouge
+
+permalink: /blog/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+feed:
+  path: blog/feed.xml
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle
+  - .jekyll-cache

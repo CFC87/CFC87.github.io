@@ -1,0 +1,44 @@
+---
+layout: base
+title: Blog
+---
+<section class="blog-head">
+  <h1>Blog</h1>
+  <a class="feed-link" href="{{ '/blog/feed.xml' | relative_url }}">RSS</a>
+</section>
+
+{% assign posts = site.posts %}
+{% if posts.size == 0 %}
+<p class="empty">No posts yet.</p>
+{% else %}
+
+{% assign featured = posts.first %}
+<a class="featured" href="{{ featured.url | relative_url }}">
+  <div class="featured-cover">{% include cover.html post=featured %}</div>
+  <div class="featured-body">
+    <div class="post-meta">
+      <time datetime="{{ featured.date | date_to_xmlschema }}">{{ featured.date | date: '%b %-d, %Y' }}</time>
+      · {% include reading-time.html content=featured.content %}
+    </div>
+    <h2>{{ featured.title }}</h2>
+    <p>{{ featured.summary | default: featured.excerpt | strip_html | truncatewords: 40 }}</p>
+    <span class="read-more">Read post →</span>
+  </div>
+</a>
+
+{% if posts.size > 1 %}
+<div class="post-grid">
+  {% for post in posts offset: 1 %}
+  <a class="post-card" href="{{ post.url | relative_url }}">
+    <div class="post-meta">
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b %-d, %Y' }}</time>
+      · {% include reading-time.html content=post.content %}
+    </div>
+    <h3>{{ post.title }}</h3>
+    <p>{{ post.summary | default: post.excerpt | strip_html | truncatewords: 30 }}</p>
+  </a>
+  {% endfor %}
+</div>
+{% endif %}
+
+{% endif %}

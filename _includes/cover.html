@@ -1,0 +1,12 @@
+{%- comment -%}
+  Cover image for a post. Uses `cover` from the post's front matter when set,
+  otherwise draws a typographic cover from the title.
+{%- endcomment -%}
+{%- if include.post.cover -%}
+<img class="cover-img" src="{{ include.post.cover | relative_url }}" alt="">
+{%- else -%}
+<div class="cover-text">
+  <span class="cover-title">{{ include.post.title }}</span>
+  <span class="cover-byline">{{ site.author }}</span>
+</div>
+{%- endif -%}

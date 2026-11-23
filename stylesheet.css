@@ -130,11 +130,6 @@ h1 {
   mask-image: url(images/icons/envelope.svg);
 }
 
-.icon-cv {
-  -webkit-mask-image: url(images/icons/file.svg);
-  mask-image: url(images/icons/file.svg);
-}
-
 .icon-linkedin {
   -webkit-mask-image: url(images/icons/linkedin.svg);
   mask-image: url(images/icons/linkedin.svg);

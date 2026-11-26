@@ -1,37 +1,47 @@
 ---
 layout: post
-title: "Beyond Training Precision: Serving Inkling 2 Mini in End-to-End NVFP4"
-summary: "Using our quantization-aware distillation (QAD) recipe, we serve Inkling 2 Mini beyond its training precision—quantizing its remaining MXFP8 expert layers to NVFP4 near-losslessly to unlock gains in KV cache, throughput, and latency."
+title: "Serving Inkling 2 Mini Below Its Training Precision"
+summary: "Using our quantization-aware distillation (QAD) recipe, we quantize Inkling 2 Mini's remaining MXFP8 expert layers to NVFP4 near-losslessly—enabling end-to-end NVFP4 serving with gains in KV cache, throughput, and latency."
+math: true
 ---
 
 > **TL;DR**
-> - Training precision does not have to dictate serving precision: we serve natively NVFP4-trained Inkling 2 Mini in **end-to-end NVFP4** by quantizing its last 1/6 of expert layers (4 of 24) from MXFP8 to NVFP4, freeing **1.8 GiB** of GPU memory.
+> - Quantizing Inkling 2 Mini's last 1/6 of expert layers (4 of 24) from MXFP8 to NVFP4 achieves **end-to-end NVFP4** and frees **1.8 GiB** of GPU memory.
 > - Across the 11 benchmarks we evaluate, direct PTQ degrades accuracy on tasks such as LiveCodeBench Pro and AutomationBench, while **our QAD recipe** recovers near-lossless performance with only **0.048B training tokens**.
-> - On a single RTX 5090, the reclaimed memory expands KV cache capacity by **44%–70%**, boosting concurrent throughput by up to **39%**, halving time to first token (TTFT) across four concurrent agent sessions, and unlocking DSpark speculative decoding for long-context agents (**285 tok/s**, +77%).
-> - More broadly, **developing post-training adaptation recipes like QAD** has the potential to bridge the accuracy gap and unlock more aggressive low-precision serving configurations than training can stably support, with significant gains in efficiency.
+> - On a single RTX 5090, the reclaimed memory expands KV cache by **44%–70%**, boosts concurrent throughput by up to **39%**, halves time to first token (TTFT) across four concurrent agent sessions, and unlocks DSpark speculative decoding for long-context agents (**285 tok/s**, +77%).
+> - More broadly, **developing pre-deployment adaptation recipes like QAD** has the potential to bridge the accuracy gap and unlock more aggressive low-precision serving configurations than training can stably support, with significant gains in efficiency.
 {: .tldr}
 
-Inkling 2 Mini is an open-weight multimodal model released by Thinking Machines Lab on November 20, 2026, under the Apache 2.0 license. It is a looped mixture-of-experts transformer with 24 layers and 128 routed experts per layer (8 active per token), where the middle 12 layers run three times with shared weights. In total, it has 26.4B parameters—3.4B active per token (5.4B counting the looped passes)—and supports up to a 1M-token context window.
+Inkling 2 Mini is Thinking Machines Lab's open-weight multimodal MoE model (26.4B total parameters, 5.4B effective active parameters across 24 layers, 1M context). It uses Thinking Machines' *end-to-end 4-bit training* recipe <a class="cite" href="#ref-1">[1]</a>—running an NVFP4 forward pass in the MoE experts across every stage from pretraining through SFT and RL—so the released ~20 GB checkpoint **ships directly in NVFP4** (3.6× fewer bits than BF16, natively accelerated on Blackwell GPUs) with no post-training quantization (PTQ) step.
 
-The model is built for NVFP4, NVIDIA's 4-bit floating-point format, which stores each value in 4 bits with an FP8 scale shared per block of 16 values (3.6× fewer bits than BF16). Blackwell GPUs execute NVFP4 matrix multiplies natively. Because Thinking Machines trained Inkling 2 Mini with an NVFP4 forward pass from pretraining through final RL rollouts <a class="cite" href="#ref-1">[1]</a>, the released checkpoint **ships directly in NVFP4** with no post-training quantization (PTQ) step. At roughly 20 GB in a single file, it fits on a DGX Spark, a 32 GB Mac, or a 32 GB GPU such as the RTX 5090.
+<figure>
+  <img src="{{ '/images/blog/end-to-end-nvfp4/aa-active-params.png' | relative_url }}" alt="Artificial Analysis Intelligence Index vs. Active Parameters showing Inkling 2 Mini on the Pareto frontier">
+  <figcaption>Inkling 2 Mini sits on the Pareto frontier of intelligence versus active parameters. Source: <a href="https://artificialanalysis.ai/articles/inkling-2-mini">Artificial Analysis</a>.</figcaption>
+</figure>
 
-Training every layer in NVFP4 is unstable, however, so Thinking Machines keeps the final layers in higher precision:
+Yet even under this end-to-end 4-bit training recipe, **not every expert layer is actually 4-bit**. Because training all layers in NVFP4 is unstable, Thinking Machines keeps the last 1/6 of layers in MXFP8:
 
 > "We keep the last 16.6% of layers in higher precision, which we compute in MXFP8 rather than BF16." <a class="cite" href="#ref-1">[1]</a>
 
-In Inkling 2 Mini, that 1/6 corresponds to the last four of its 24 layers: the experts in layers 0–19 are NVFP4, while those in layers 20–23 remain MXFP8.
+In Inkling 2 Mini, the experts in layers 0–19 ship in NVFP4, while **layers 20–23 remain in MXFP8**.
 
-That higher precision exists to keep 4-bit training stable. Serving has no backward pass to destabilize, so those four layers can run in NVFP4 too—freeing 1.8 GiB of GPU memory—provided we can recover the resulting quantization error. We call this **end-to-end NVFP4**: every expert layer, from 0 to 23, runs in NVFP4. Converting them directly with PTQ degrades accuracy. Below, we show that the QAD recipe from our upcoming paper <a class="cite" href="#ref-3">[3]</a> recovers that loss with only 0.048B training tokens, measure what the reclaimed memory delivers on a single RTX 5090, and illustrate how post-training adaptation recipes like QAD can unlock more aggressive low-precision serving configurations than training can stably support.
+Those four layers are kept in MXFP8 for training stability, not inference. For serving, quantizing them to NVFP4 frees 1.8 GiB of GPU memory and enables **end-to-end NVFP4 serving**. Naive PTQ is not free, however: direct conversion hurts accuracy, especially on coding and agentic tasks. Using the QAD recipe from our upcoming paper <a class="cite" href="#ref-3">[3]</a>, we recover near-lossless accuracy with only 0.048B training tokens—and on a single RTX 5090, that reclaimed memory unlocks much larger KV caches, higher concurrent throughput, and long-context speculative decoding that the official release cannot even fit.
 
 ## End-to-end NVFP4 and what it costs
 
-The official release already defines the NVFP4 weight-quantization rule: re-running it on layers 0–19 reproduces the shipped weights bit for bit. Applying the same rule to the experts in layers 20–23 shrinks the checkpoint from **19.53 GB to 17.61 GB**. Attention, embeddings, and the KV cache format remain unchanged.
+To convert the MoE experts in layers 20–23 from MXFP8 to NVFP4, we apply the same **W4A4 NVFP4** configuration used in layers 0–19: both expert weights and activations run in NVFP4 (with FP8 E4M3 scales per 16-value block, per-expert FP32 outer scales for weights, and per-token outer scales for activations <a class="cite" href="#ref-1">[1]</a>). This shrinks the checkpoint from **19.53 GB to 17.61 GB**, while leaving attention, embeddings, and the KV cache format unchanged.
 
-That naive conversion comes at a clear accuracy cost. Across our 11-benchmark suite spanning reasoning, code, long context, and agentic tasks, direct PTQ loses **2.1 points (3.3% relative) on LiveCodeBench Pro**, along with 0.5 to 0.7 points on SuperGPQA, LiveCodeBench v6, LongBench Pro, and AutomationBench (Table 1, *End-to-end NVFP4* column).
+Direct PTQ of these four layers comes at a clear accuracy cost: across our 11-benchmark suite spanning *reasoning*, *code*, *long context*, and *agentic* tasks, it drops **2.1 points on LiveCodeBench Pro**, along with 0.5 to 0.7 points on SuperGPQA, LiveCodeBench v6, LongBench Pro, and AutomationBench (Table 1, *End-to-end NVFP4* column).
 
 ## Recovering accuracy with QAD
 
-QAD trains a quantized student model to match a higher-precision teacher <a class="cite" href="#ref-2">[2]</a>. Here, the official release serves as the teacher, the end-to-end NVFP4 model is the student, and **only the four converted expert layers are updated**. Following the recipe from our upcoming paper <a class="cite" href="#ref-3">[3]</a>, recovery takes **0.048B training tokens**; we will open-source the code and data soon.
+Quantization-Aware Distillation (QAD) uses the higher-precision model as a teacher to train the quantized student by minimizing the token-level KL divergence between their output distributions <a class="cite" href="#ref-2">[2]</a>:
+
+$$\mathcal{L}_{\text{QAD}} = D_{\text{KL}}\!\left(p_{\text{teacher}} \,\|\, p_{\text{student}}\right) = \sum_{y \in V} p_{\text{teacher}}(y \mid x)\,\log\frac{p_{\text{teacher}}(y \mid x)}{p_{\text{student}}(y \mid x)}$$
+
+Unlike native quantized training—which quantizes both forward and backward passes to reduce training compute—QAD **simulates NVFP4 quantization only in the forward pass while keeping backward-pass gradients and optimization in high precision** <a class="cite" href="#ref-2">[2]</a>.
+
+In our setup, the official release serves as the teacher, the end-to-end NVFP4 model is the student, and **only the four converted expert layers are updated** while the rest of the model stays frozen. Following the recipe from our upcoming paper <a class="cite" href="#ref-3">[3]</a>, recovery takes only **0.048B training tokens**. We will open-source the code and data alongside the paper.
 
 <figure>
   <div class="fig-art" role="img" aria-label="Benchmark scores of end-to-end NVFP4 with QAD, end-to-end NVFP4 without it, and the official release">{% include blog/end-to-end-nvfp4/table-benchmarks.svg %}</div>
@@ -90,7 +100,7 @@ With DSpark enabled—raising the context limit from the cookbook's 32,768 token
 
 The precision a model needs for stable 4-bit training is not the precision it needs for serving. To our knowledge, this is the first demonstration that a natively NVFP4-trained model can be served with a more aggressive NVFP4 scheme than it was trained with, while lightweight QAD recovers near-lossless accuracy.
 
-Even in a single-GPU deployment of Inkling 2 Mini, converting just its last four MXFP8 layers already unlocks large gains in KV cache capacity, throughput, and latency. More broadly, **developing post-training adaptation recipes like QAD has the potential to bridge the accuracy gap and unlock more aggressive low-precision serving configurations than training can stably support—with significant gains in efficiency.**
+Even in a single-GPU deployment of Inkling 2 Mini, converting just its last four MXFP8 expert layers already unlocks large gains in KV cache capacity, throughput, and latency. More broadly, **developing pre-deployment adaptation recipes like QAD has the potential to bridge the accuracy gap and unlock more aggressive low-precision serving configurations than training can stably support—with significant gains in efficiency.**
 
 ## References
 

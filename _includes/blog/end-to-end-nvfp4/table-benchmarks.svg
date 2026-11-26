@@ -1,0 +1,468 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 518.4 303.12" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-26T06:43:35.298249</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="table-benchmarks-figure_1">
+  <g id="table-benchmarks-patch_1">
+   <path d="M 0 303.12 
+L 518.4 303.12 
+L 518.4 0 
+L 0 0 
+L 0 303.12 
+z
+" style="fill: none"/>
+  </g>
+  <g id="table-benchmarks-axes_1">
+   <g id="table-benchmarks-patch_2">
+    <path d="M 259.2 74.88 
+L 336.96 74.88 
+L 336.96 52.56 
+L 259.2 52.56 
+z
+" clip-path="url(#table-benchmarks-p77a2c4efda)" style="fill: #e2e2df"/>
+   </g>
+   <g id="table-benchmarks-patch_3">
+    <path d="M 437.04 74.88 
+L 513.36 74.88 
+L 513.36 52.56 
+L 437.04 52.56 
+z
+" clip-path="url(#table-benchmarks-p77a2c4efda)" style="fill: #a9cdf2"/>
+   </g>
+   <g id="table-benchmarks-patch_4">
+    <path d="M 336.24 97.2 
+L 438.48 97.2 
+L 438.48 74.88 
+L 336.24 74.88 
+z
+" clip-path="url(#table-benchmarks-p77a2c4efda)" style="fill: #e2e2df"/>
+   </g>
+   <g id="table-benchmarks-patch_5">
+    <path d="M 437.04 97.2 
+L 513.36 97.2 
+L 513.36 74.88 
+L 437.04 74.88 
+z
+" clip-path="url(#table-benchmarks-p77a2c4efda)" style="fill: #a9cdf2"/>
+   </g>
+   <g id="table-benchmarks-patch_6">
+    <path d="M 336.24 119.52 
+L 438.48 119.52 
+L 438.48 97.2 
+L 336.24 97.2 
+z
+" clip-path="url(#table-benchmarks-p77a2c4efda)" style="fill: #e2e2df"/>
+   </g>
+   <g id="table-benchmarks-patch_7">
+    <path d="M 437.04 119.52 
+L 513.36 119.52 
+L 513.36 97.2 
+L 437.04 97.2 
+z
+" clip-path="url(#table-benchmarks-p77a2c4efda)" style="fill: #a9cdf2"/>
+   </g>
+   <g id="table-benchmarks-patch_8">
+    <path d="M 259.2 141.84 
+L 336.96 141.84 
+L 336.96 119.52 
+L 259.2 119.52 
+z
+" clip-path="url(#table-benchmarks-p77a2c4efda)" style="fill: #a9cdf2"/>
+   </g>
+   <g id="table-benchmarks-patch_9">
+    <path d="M 437.04 141.84 
+L 513.36 141.84 
+L 513.36 119.52 
+L 437.04 119.52 
+z
+" clip-path="url(#table-benchmarks-p77a2c4efda)" style="fill: #e2e2df"/>
+   </g>
+   <g id="table-benchmarks-patch_10">
+    <path d="M 259.2 164.16 
+L 336.96 164.16 
+L 336.96 141.84 
+L 259.2 141.84 
+z
+" clip-path="url(#table-benchmarks-p77a2c4efda)" style="fill: #a9cdf2"/>
+   </g>
+   <g id="table-benchmarks-patch_11">
+    <path d="M 437.04 164.16 
+L 513.36 164.16 
+L 513.36 141.84 
+L 437.04 141.84 
+z
+" clip-path="url(#table-benchmarks-p77a2c4efda)" style="fill: #e2e2df"/>
+   </g>
+   <g id="table-benchmarks-patch_12">
+    <path d="M 259.2 186.48 
+L 336.96 186.48 
+L 336.96 164.16 
+L 259.2 164.16 
+z
+" clip-path="url(#table-benchmarks-p77a2c4efda)" style="fill: #a9cdf2"/>
+   </g>
+   <g id="table-benchmarks-patch_13">
+    <path d="M 437.04 186.48 
+L 513.36 186.48 
+L 513.36 164.16 
+L 437.04 164.16 
+z
+" clip-path="url(#table-benchmarks-p77a2c4efda)" style="fill: #a9cdf2"/>
+   </g>
+   <g id="table-benchmarks-patch_14">
+    <path d="M 259.2 208.8 
+L 336.96 208.8 
+L 336.96 186.48 
+L 259.2 186.48 
+z
+" clip-path="url(#table-benchmarks-p77a2c4efda)" style="fill: #e2e2df"/>
+   </g>
+   <g id="table-benchmarks-patch_15">
+    <path d="M 437.04 208.8 
+L 513.36 208.8 
+L 513.36 186.48 
+L 437.04 186.48 
+z
+" clip-path="url(#table-benchmarks-p77a2c4efda)" style="fill: #a9cdf2"/>
+   </g>
+   <g id="table-benchmarks-patch_16">
+    <path d="M 336.24 231.12 
+L 438.48 231.12 
+L 438.48 208.8 
+L 336.24 208.8 
+z
+" clip-path="url(#table-benchmarks-p77a2c4efda)" style="fill: #a9cdf2"/>
+   </g>
+   <g id="table-benchmarks-patch_17">
+    <path d="M 437.04 231.12 
+L 513.36 231.12 
+L 513.36 208.8 
+L 437.04 208.8 
+z
+" clip-path="url(#table-benchmarks-p77a2c4efda)" style="fill: #a9cdf2"/>
+   </g>
+   <g id="table-benchmarks-patch_18">
+    <path d="M 336.24 253.44 
+L 438.48 253.44 
+L 438.48 231.12 
+L 336.24 231.12 
+z
+" clip-path="url(#table-benchmarks-p77a2c4efda)" style="fill: #a9cdf2"/>
+   </g>
+   <g id="table-benchmarks-patch_19">
+    <path d="M 437.04 253.44 
+L 513.36 253.44 
+L 513.36 231.12 
+L 437.04 231.12 
+z
+" clip-path="url(#table-benchmarks-p77a2c4efda)" style="fill: #a9cdf2"/>
+   </g>
+   <g id="table-benchmarks-patch_20">
+    <path d="M 336.24 275.76 
+L 438.48 275.76 
+L 438.48 253.44 
+L 336.24 253.44 
+z
+" clip-path="url(#table-benchmarks-p77a2c4efda)" style="fill: #e2e2df"/>
+   </g>
+   <g id="table-benchmarks-patch_21">
+    <path d="M 437.04 275.76 
+L 513.36 275.76 
+L 513.36 253.44 
+L 437.04 253.44 
+z
+" clip-path="url(#table-benchmarks-p77a2c4efda)" style="fill: #a9cdf2"/>
+   </g>
+   <g id="table-benchmarks-patch_22">
+    <path d="M 259.2 298.08 
+L 336.96 298.08 
+L 336.96 275.76 
+L 259.2 275.76 
+z
+" clip-path="url(#table-benchmarks-p77a2c4efda)" style="fill: #a9cdf2"/>
+   </g>
+   <g id="table-benchmarks-patch_23">
+    <path d="M 437.04 298.08 
+L 513.36 298.08 
+L 513.36 275.76 
+L 437.04 275.76 
+z
+" clip-path="url(#table-benchmarks-p77a2c4efda)" style="fill: #e2e2df"/>
+   </g>
+   <g id="table-benchmarks-line2d_1">
+    <path d="M 3.6 52.56 
+L 513.36 52.56 
+" clip-path="url(#table-benchmarks-p77a2c4efda)" style="fill: none; stroke: #1d1d1f; stroke-width: 0.9; stroke-linecap: square"/>
+   </g>
+   <g id="table-benchmarks-line2d_2">
+    <path d="M 74.16 74.88 
+L 513.36 74.88 
+" clip-path="url(#table-benchmarks-p77a2c4efda)" style="fill: none; stroke: #e6e1d8; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="table-benchmarks-line2d_3">
+    <path d="M 74.16 97.2 
+L 513.36 97.2 
+" clip-path="url(#table-benchmarks-p77a2c4efda)" style="fill: none; stroke: #e6e1d8; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="table-benchmarks-line2d_4">
+    <path d="M 74.16 119.52 
+L 513.36 119.52 
+" clip-path="url(#table-benchmarks-p77a2c4efda)" style="fill: none; stroke: #e6e1d8; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="table-benchmarks-line2d_5">
+    <path d="M 3.6 141.84 
+L 513.36 141.84 
+" clip-path="url(#table-benchmarks-p77a2c4efda)" style="fill: none; stroke: #6e6e73; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="table-benchmarks-line2d_6">
+    <path d="M 74.16 164.16 
+L 513.36 164.16 
+" clip-path="url(#table-benchmarks-p77a2c4efda)" style="fill: none; stroke: #e6e1d8; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="table-benchmarks-line2d_7">
+    <path d="M 3.6 186.48 
+L 513.36 186.48 
+" clip-path="url(#table-benchmarks-p77a2c4efda)" style="fill: none; stroke: #6e6e73; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="table-benchmarks-line2d_8">
+    <path d="M 74.16 208.8 
+L 513.36 208.8 
+" clip-path="url(#table-benchmarks-p77a2c4efda)" style="fill: none; stroke: #e6e1d8; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="table-benchmarks-line2d_9">
+    <path d="M 3.6 231.12 
+L 513.36 231.12 
+" clip-path="url(#table-benchmarks-p77a2c4efda)" style="fill: none; stroke: #6e6e73; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="table-benchmarks-line2d_10">
+    <path d="M 74.16 253.44 
+L 513.36 253.44 
+" clip-path="url(#table-benchmarks-p77a2c4efda)" style="fill: none; stroke: #e6e1d8; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="table-benchmarks-line2d_11">
+    <path d="M 74.16 275.76 
+L 513.36 275.76 
+" clip-path="url(#table-benchmarks-p77a2c4efda)" style="fill: none; stroke: #e6e1d8; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="table-benchmarks-line2d_12">
+    <path d="M 3.6 298.08 
+L 513.36 298.08 
+" clip-path="url(#table-benchmarks-p77a2c4efda)" style="fill: none; stroke: #1d1d1f; stroke-width: 0.9; stroke-linecap: square"/>
+   </g>
+   <g id="table-benchmarks-text_1">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #1d1d1f" x="74.16" y="32.3385" transform="rotate(-0 74.16 32.3385)">Benchmark</text>
+   </g>
+   <g id="table-benchmarks-text_2">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="298.08" y="26.3985" transform="rotate(-0 298.08 26.3985)">Official</text>
+   </g>
+   <g id="table-benchmarks-text_3">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="298.08" y="38.2785" transform="rotate(-0 298.08 38.2785)">Release</text>
+   </g>
+   <g id="table-benchmarks-text_4">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="387.36" y="26.3985" transform="rotate(-0 387.36 26.3985)">End-to-end</text>
+   </g>
+   <g id="table-benchmarks-text_5">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="387.36" y="38.2785" transform="rotate(-0 387.36 38.2785)">NVFP4</text>
+   </g>
+   <g id="table-benchmarks-text_6">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="475.2" y="20.4585" transform="rotate(-0 475.2 20.4585)">End-to-end</text>
+   </g>
+   <g id="table-benchmarks-text_7">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="475.2" y="32.3385" transform="rotate(-0 475.2 32.3385)">NVFP4 + QAD</text>
+   </g>
+   <g id="table-benchmarks-text_8">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="475.2" y="44.2185" transform="rotate(-0 475.2 44.2185)">(Ours)</text>
+   </g>
+   <g id="table-benchmarks-text_9">
+    <text style="font-size: 9.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #6e6e73" x="5.04" y="66.9215" transform="rotate(-0 5.04 66.9215)">Reasoning</text>
+   </g>
+   <g id="table-benchmarks-text_10">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="298.08" y="67.427" transform="rotate(-0 298.08 67.427)">96.1%</text>
+   </g>
+   <g id="table-benchmarks-text_11">
+    <text style="font-size: 11px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="387.36" y="67.427" transform="rotate(-0 387.36 67.427)">95.9%</text>
+   </g>
+   <g id="table-benchmarks-text_12">
+    <text style="font-size: 9px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #b3412e" x="406.8" y="66.753" transform="rotate(-0 406.8 66.753)">↓0.2%</text>
+   </g>
+   <g id="table-benchmarks-text_13">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="475.2" y="67.427" transform="rotate(-0 475.2 67.427)">96.2%</text>
+   </g>
+   <g id="table-benchmarks-text_14">
+    <text style="font-weight: 500; font-size: 10.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #1d1d1f" x="74.16" y="67.2585" transform="rotate(-0 74.16 67.2585)">AIME · HMMT · BRUMO · SMT · CMIMC</text>
+   </g>
+   <g id="table-benchmarks-text_15">
+    <text style="font-size: 11px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="298.08" y="89.747" transform="rotate(-0 298.08 89.747)">77.1%</text>
+   </g>
+   <g id="table-benchmarks-text_16">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="387.36" y="89.747" transform="rotate(-0 387.36 89.747)">77.2%</text>
+   </g>
+   <g id="table-benchmarks-text_17">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="475.2" y="89.747" transform="rotate(-0 475.2 89.747)">77.8%</text>
+   </g>
+   <g id="table-benchmarks-text_18">
+    <text style="font-weight: 500; font-size: 10.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #1d1d1f" x="74.16" y="89.5785" transform="rotate(-0 74.16 89.5785)">BeyondAIME · OlymMATH-Hard · Apex</text>
+   </g>
+   <g id="table-benchmarks-text_19">
+    <text style="font-size: 11px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="298.08" y="112.067" transform="rotate(-0 298.08 112.067)">86.3%</text>
+   </g>
+   <g id="table-benchmarks-text_20">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="387.36" y="112.067" transform="rotate(-0 387.36 112.067)">86.7%</text>
+   </g>
+   <g id="table-benchmarks-text_21">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="475.2" y="112.067" transform="rotate(-0 475.2 112.067)">86.8%</text>
+   </g>
+   <g id="table-benchmarks-text_22">
+    <text style="font-weight: 500; font-size: 10.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #1d1d1f" x="74.16" y="111.8985" transform="rotate(-0 74.16 111.8985)">GPQA Diamond</text>
+   </g>
+   <g id="table-benchmarks-text_23">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="298.08" y="134.387" transform="rotate(-0 298.08 134.387)">64.4%</text>
+   </g>
+   <g id="table-benchmarks-text_24">
+    <text style="font-size: 11px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="387.36" y="134.387" transform="rotate(-0 387.36 134.387)">63.8%</text>
+   </g>
+   <g id="table-benchmarks-text_25">
+    <text style="font-size: 9px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #b3412e" x="406.8" y="133.713" transform="rotate(-0 406.8 133.713)">↓0.9%</text>
+   </g>
+   <g id="table-benchmarks-text_26">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="475.2" y="134.387" transform="rotate(-0 475.2 134.387)">63.9%</text>
+   </g>
+   <g id="table-benchmarks-text_27">
+    <text style="font-weight: 500; font-size: 10.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #1d1d1f" x="74.16" y="134.2185" transform="rotate(-0 74.16 134.2185)">SuperGPQA</text>
+   </g>
+   <g id="table-benchmarks-text_28">
+    <text style="font-size: 9.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #6e6e73" x="5.04" y="156.2015" transform="rotate(-0 5.04 156.2015)">Code</text>
+   </g>
+   <g id="table-benchmarks-text_29">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="298.08" y="156.707" transform="rotate(-0 298.08 156.707)">81.9%</text>
+   </g>
+   <g id="table-benchmarks-text_30">
+    <text style="font-size: 11px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="387.36" y="156.707" transform="rotate(-0 387.36 156.707)">81.4%</text>
+   </g>
+   <g id="table-benchmarks-text_31">
+    <text style="font-size: 9px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #b3412e" x="406.8" y="156.033" transform="rotate(-0 406.8 156.033)">↓0.5%</text>
+   </g>
+   <g id="table-benchmarks-text_32">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="475.2" y="156.707" transform="rotate(-0 475.2 156.707)">81.5%</text>
+   </g>
+   <g id="table-benchmarks-text_33">
+    <text style="font-weight: 500; font-size: 10.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #1d1d1f" x="74.16" y="156.5385" transform="rotate(-0 74.16 156.5385)">LiveCodeBench v6</text>
+   </g>
+   <g id="table-benchmarks-text_34">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="298.08" y="179.027" transform="rotate(-0 298.08 179.027)">64.1%</text>
+   </g>
+   <g id="table-benchmarks-text_35">
+    <text style="font-size: 11px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="387.36" y="179.027" transform="rotate(-0 387.36 179.027)">62.0%</text>
+   </g>
+   <g id="table-benchmarks-text_36">
+    <text style="font-size: 9px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #b3412e" x="406.8" y="178.353" transform="rotate(-0 406.8 178.353)">↓3.3%</text>
+   </g>
+   <g id="table-benchmarks-text_37">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="475.2" y="179.027" transform="rotate(-0 475.2 179.027)">64.1%</text>
+   </g>
+   <g id="table-benchmarks-text_38">
+    <text style="font-weight: 500; font-size: 10.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #1d1d1f" x="74.16" y="178.8585" transform="rotate(-0 74.16 178.8585)">LiveCodeBench Pro</text>
+   </g>
+   <g id="table-benchmarks-text_39">
+    <text style="font-size: 9.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #6e6e73" x="5.04" y="200.8415" transform="rotate(-0 5.04 200.8415)">Long context</text>
+   </g>
+   <g id="table-benchmarks-text_40">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="298.08" y="201.347" transform="rotate(-0 298.08 201.347)">63.5%</text>
+   </g>
+   <g id="table-benchmarks-text_41">
+    <text style="font-size: 11px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="387.36" y="201.347" transform="rotate(-0 387.36 201.347)">63.0%</text>
+   </g>
+   <g id="table-benchmarks-text_42">
+    <text style="font-size: 9px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #b3412e" x="406.8" y="200.673" transform="rotate(-0 406.8 200.673)">↓0.8%</text>
+   </g>
+   <g id="table-benchmarks-text_43">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="475.2" y="201.347" transform="rotate(-0 475.2 201.347)">63.6%</text>
+   </g>
+   <g id="table-benchmarks-text_44">
+    <text style="font-weight: 500; font-size: 10.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #1d1d1f" x="74.16" y="201.1785" transform="rotate(-0 74.16 201.1785)">LongBench Pro</text>
+   </g>
+   <g id="table-benchmarks-text_45">
+    <text style="font-size: 11px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="298.08" y="223.667" transform="rotate(-0 298.08 223.667)">87.3%</text>
+   </g>
+   <g id="table-benchmarks-text_46">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="387.36" y="223.667" transform="rotate(-0 387.36 223.667)">88.2%</text>
+   </g>
+   <g id="table-benchmarks-text_47">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="475.2" y="223.667" transform="rotate(-0 475.2 223.667)">88.2%</text>
+   </g>
+   <g id="table-benchmarks-text_48">
+    <text style="font-weight: 500; font-size: 10.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #1d1d1f" x="74.16" y="223.4985" transform="rotate(-0 74.16 223.4985)">MRCR</text>
+   </g>
+   <g id="table-benchmarks-text_49">
+    <text style="font-size: 9.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #6e6e73" x="5.04" y="245.4815" transform="rotate(-0 5.04 245.4815)">Agentic</text>
+   </g>
+   <g id="table-benchmarks-text_50">
+    <text style="font-size: 11px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="298.08" y="245.987" transform="rotate(-0 298.08 245.987)">59.4%</text>
+   </g>
+   <g id="table-benchmarks-text_51">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="387.36" y="245.987" transform="rotate(-0 387.36 245.987)">59.6%</text>
+   </g>
+   <g id="table-benchmarks-text_52">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="475.2" y="245.987" transform="rotate(-0 475.2 245.987)">59.6%</text>
+   </g>
+   <g id="table-benchmarks-text_53">
+    <text style="font-weight: 500; font-size: 10.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #1d1d1f" x="74.16" y="245.8185" transform="rotate(-0 74.16 245.8185)">BFCL</text>
+   </g>
+   <g id="table-benchmarks-text_54">
+    <text style="font-size: 11px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="298.08" y="268.307" transform="rotate(-0 298.08 268.307)">85.2%</text>
+   </g>
+   <g id="table-benchmarks-text_55">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="387.36" y="268.307" transform="rotate(-0 387.36 268.307)">85.5%</text>
+   </g>
+   <g id="table-benchmarks-text_56">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="475.2" y="268.307" transform="rotate(-0 475.2 268.307)">86.4%</text>
+   </g>
+   <g id="table-benchmarks-text_57">
+    <text style="font-weight: 500; font-size: 10.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #1d1d1f" x="74.16" y="268.1385" transform="rotate(-0 74.16 268.1385)">τ²-bench</text>
+   </g>
+   <g id="table-benchmarks-text_58">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="298.08" y="290.627" transform="rotate(-0 298.08 290.627)">57.8%</text>
+   </g>
+   <g id="table-benchmarks-text_59">
+    <text style="font-size: 11px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="387.36" y="290.627" transform="rotate(-0 387.36 290.627)">57.1%</text>
+   </g>
+   <g id="table-benchmarks-text_60">
+    <text style="font-size: 9px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #b3412e" x="406.8" y="289.953" transform="rotate(-0 406.8 289.953)">↓1.1%</text>
+   </g>
+   <g id="table-benchmarks-text_61">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="475.2" y="290.627" transform="rotate(-0 475.2 290.627)">57.7%</text>
+   </g>
+   <g id="table-benchmarks-text_62">
+    <text style="font-weight: 500; font-size: 10.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #1d1d1f" x="74.16" y="290.4585" transform="rotate(-0 74.16 290.4585)">AutomationBench</text>
+   </g>
+   <g id="table-benchmarks-patch_24">
+    <path d="M 437.04 298.08 
+L 513.36 298.08 
+L 513.36 5.04 
+L 437.04 5.04 
+L 437.04 298.08 
+z
+" clip-path="url(#table-benchmarks-p77a2c4efda)" style="fill: none; stroke: #2c5b8a; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="table-benchmarks-p77a2c4efda">
+   <rect x="3.6" y="3.6" width="511.2" height="295.92"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,500 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 518.4 228.057" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-26T06:43:35.086015</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="fig2-throughput-figure_1">
+  <g id="fig2-throughput-patch_1">
+   <path d="M 0 228.057 
+L 518.4 228.057 
+L 518.4 0 
+L 0 0 
+L 0 228.057 
+z
+" style="fill: none"/>
+  </g>
+  <g id="fig2-throughput-axes_1">
+   <g id="fig2-throughput-patch_2">
+    <path d="M 55.743965 189.774 
+L 195.121035 189.774 
+L 195.121035 55.337 
+L 55.743965 55.337 
+L 55.743965 189.774 
+z
+" style="fill: none"/>
+   </g>
+   <g id="fig2-throughput-matplotlib.axis_1">
+    <g id="fig2-throughput-xtick_1">
+     <g id="fig2-throughput-line2d_1"/>
+     <g id="fig2-throughput-text_1">
+      <text style="font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #6e6e73" x="61.686344" y="203.274" transform="rotate(-0 61.686344 203.274)">1</text>
+     </g>
+    </g>
+    <g id="fig2-throughput-xtick_2">
+     <g id="fig2-throughput-line2d_2"/>
+     <g id="fig2-throughput-text_2">
+      <text style="font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #6e6e73" x="98.60377" y="203.274" transform="rotate(-0 98.60377 203.274)">4</text>
+     </g>
+    </g>
+    <g id="fig2-throughput-xtick_3">
+     <g id="fig2-throughput-line2d_3"/>
+     <g id="fig2-throughput-text_3">
+      <text style="font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #6e6e73" x="117.062483" y="203.274" transform="rotate(-0 117.062483 203.274)">8</text>
+     </g>
+    </g>
+    <g id="fig2-throughput-xtick_4">
+     <g id="fig2-throughput-line2d_4"/>
+     <g id="fig2-throughput-text_4">
+      <text style="font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #6e6e73" x="135.521196" y="203.274" transform="rotate(-0 135.521196 203.274)">16</text>
+     </g>
+    </g>
+    <g id="fig2-throughput-xtick_5">
+     <g id="fig2-throughput-line2d_5"/>
+     <g id="fig2-throughput-text_5">
+      <text style="font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #6e6e73" x="153.97991" y="203.274" transform="rotate(-0 153.97991 203.274)">32</text>
+     </g>
+    </g>
+    <g id="fig2-throughput-xtick_6">
+     <g id="fig2-throughput-line2d_6"/>
+     <g id="fig2-throughput-text_6">
+      <text style="font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #6e6e73" x="172.438623" y="203.274" transform="rotate(-0 172.438623 203.274)">64</text>
+     </g>
+    </g>
+   </g>
+   <g id="fig2-throughput-matplotlib.axis_2">
+    <g id="fig2-throughput-ytick_1">
+     <g id="fig2-throughput-line2d_7">
+      <path d="M 55.743965 189.774 
+L 195.121035 189.774 
+" clip-path="url(#fig2-throughput-p750ba7ecad)" style="fill: none; stroke: #e6e1d8; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="fig2-throughput-line2d_8"/>
+     <g id="fig2-throughput-text_7">
+      <text style="font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: end; fill: #6e6e73" x="52.243965" y="194.774" transform="rotate(-0 52.243965 194.774)">0</text>
+     </g>
+    </g>
+    <g id="fig2-throughput-ytick_2">
+     <g id="fig2-throughput-line2d_9">
+      <path d="M 55.743965 150.233706 
+L 195.121035 150.233706 
+" clip-path="url(#fig2-throughput-p750ba7ecad)" style="fill: none; stroke: #e6e1d8; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="fig2-throughput-line2d_10"/>
+     <g id="fig2-throughput-text_8">
+      <text style="font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: end; fill: #6e6e73" x="52.243965" y="155.233706" transform="rotate(-0 52.243965 155.233706)">200</text>
+     </g>
+    </g>
+    <g id="fig2-throughput-ytick_3">
+     <g id="fig2-throughput-line2d_11">
+      <path d="M 55.743965 110.693412 
+L 195.121035 110.693412 
+" clip-path="url(#fig2-throughput-p750ba7ecad)" style="fill: none; stroke: #e6e1d8; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="fig2-throughput-line2d_12"/>
+     <g id="fig2-throughput-text_9">
+      <text style="font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: end; fill: #6e6e73" x="52.243965" y="115.693412" transform="rotate(-0 52.243965 115.693412)">400</text>
+     </g>
+    </g>
+    <g id="fig2-throughput-ytick_4">
+     <g id="fig2-throughput-line2d_13">
+      <path d="M 55.743965 71.153118 
+L 195.121035 71.153118 
+" clip-path="url(#fig2-throughput-p750ba7ecad)" style="fill: none; stroke: #e6e1d8; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="fig2-throughput-line2d_14"/>
+     <g id="fig2-throughput-text_10">
+      <text style="font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: end; fill: #6e6e73" x="52.243965" y="76.153118" transform="rotate(-0 52.243965 76.153118)">600</text>
+     </g>
+    </g>
+    <g id="fig2-throughput-text_11">
+     <text style="font-size: 10.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #6e6e73" x="29.910028" y="122.5555" transform="rotate(-90 29.910028 122.5555)">Output throughput (tok/s)</text>
+    </g>
+   </g>
+   <g id="fig2-throughput-line2d_15">
+    <path d="M 61.686344 157.746362 
+L 98.60377 108.123293 
+L 117.062483 107.332487 
+L 135.521196 107.530188 
+L 153.97991 106.343979 
+L 172.438623 106.343979 
+" clip-path="url(#fig2-throughput-p750ba7ecad)" style="fill: none; stroke: #a3a3a8; stroke-width: 2; stroke-linecap: square"/>
+    <defs>
+     <path id="fig2-throughput-m10cb670410" d="M 0 2 
+C 0.530406 2 1.03916 1.789267 1.414214 1.414214 
+C 1.789267 1.03916 2 0.530406 2 0 
+C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 
+C 1.03916 -1.789267 0.530406 -2 0 -2 
+C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 
+C -1.789267 -1.03916 -2 -0.530406 -2 0 
+C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 
+C -1.03916 1.789267 -0.530406 2 0 2 
+z
+" style="stroke: #a3a3a8"/>
+    </defs>
+    <g clip-path="url(#fig2-throughput-p750ba7ecad)">
+     <use xlink:href="#fig2-throughput-m10cb670410" x="61.686344" y="157.746362" style="fill: #a3a3a8; stroke: #a3a3a8"/>
+     <use xlink:href="#fig2-throughput-m10cb670410" x="98.60377" y="108.123293" style="fill: #a3a3a8; stroke: #a3a3a8"/>
+     <use xlink:href="#fig2-throughput-m10cb670410" x="117.062483" y="107.332487" style="fill: #a3a3a8; stroke: #a3a3a8"/>
+     <use xlink:href="#fig2-throughput-m10cb670410" x="135.521196" y="107.530188" style="fill: #a3a3a8; stroke: #a3a3a8"/>
+     <use xlink:href="#fig2-throughput-m10cb670410" x="153.97991" y="106.343979" style="fill: #a3a3a8; stroke: #a3a3a8"/>
+     <use xlink:href="#fig2-throughput-m10cb670410" x="172.438623" y="106.343979" style="fill: #a3a3a8; stroke: #a3a3a8"/>
+    </g>
+   </g>
+   <g id="fig2-throughput-line2d_16">
+    <path d="M 61.686344 157.350959 
+L 98.60377 106.937084 
+L 117.062483 80.445087 
+L 135.521196 79.258878 
+L 153.97991 75.897953 
+L 172.438623 73.920938 
+" clip-path="url(#fig2-throughput-p750ba7ecad)" style="fill: none; stroke: #2c5b8a; stroke-width: 2.4; stroke-linecap: square"/>
+    <defs>
+     <path id="fig2-throughput-m98aba2798a" d="M 0 2 
+C 0.530406 2 1.03916 1.789267 1.414214 1.414214 
+C 1.789267 1.03916 2 0.530406 2 0 
+C 2 -0.530406 1.789267 -1.03916 1.414214 -1.414214 
+C 1.03916 -1.789267 0.530406 -2 0 -2 
+C -0.530406 -2 -1.03916 -1.789267 -1.414214 -1.414214 
+C -1.789267 -1.03916 -2 -0.530406 -2 0 
+C -2 0.530406 -1.789267 1.03916 -1.414214 1.414214 
+C -1.03916 1.789267 -0.530406 2 0 2 
+z
+" style="stroke: #2c5b8a"/>
+    </defs>
+    <g clip-path="url(#fig2-throughput-p750ba7ecad)">
+     <use xlink:href="#fig2-throughput-m98aba2798a" x="61.686344" y="157.350959" style="fill: #2c5b8a; stroke: #2c5b8a"/>
+     <use xlink:href="#fig2-throughput-m98aba2798a" x="98.60377" y="106.937084" style="fill: #2c5b8a; stroke: #2c5b8a"/>
+     <use xlink:href="#fig2-throughput-m98aba2798a" x="117.062483" y="80.445087" style="fill: #2c5b8a; stroke: #2c5b8a"/>
+     <use xlink:href="#fig2-throughput-m98aba2798a" x="135.521196" y="79.258878" style="fill: #2c5b8a; stroke: #2c5b8a"/>
+     <use xlink:href="#fig2-throughput-m98aba2798a" x="153.97991" y="75.897953" style="fill: #2c5b8a; stroke: #2c5b8a"/>
+     <use xlink:href="#fig2-throughput-m98aba2798a" x="172.438623" y="73.920938" style="fill: #2c5b8a; stroke: #2c5b8a"/>
+    </g>
+   </g>
+   <g id="fig2-throughput-line2d_17"/>
+   <g id="fig2-throughput-line2d_18"/>
+   <g id="fig2-throughput-patch_3">
+    <path d="M 55.743965 189.774 
+L 195.121035 189.774 
+" style="fill: none; stroke: #e6e1d8; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="fig2-throughput-text_12">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #2c5b8a" x="178.381001" y="77.290938" transform="rotate(-0 178.381001 77.290938)">586</text>
+   </g>
+   <g id="fig2-throughput-text_13">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #6e6e73" x="178.381001" y="109.713979" transform="rotate(-0 178.381001 109.713979)">422</text>
+   </g>
+   <g id="fig2-throughput-text_14">
+    <text style="font-size: 11px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #1d1d1f" x="55.743965" y="49.337" transform="rotate(-0 55.743965 49.337)">1K in / 1K out</text>
+   </g>
+  </g>
+  <g id="fig2-throughput-axes_2">
+   <g id="fig2-throughput-patch_4">
+    <path d="M 207.782965 189.774 
+L 347.160035 189.774 
+L 347.160035 55.337 
+L 207.782965 55.337 
+L 207.782965 189.774 
+z
+" style="fill: none"/>
+   </g>
+   <g id="fig2-throughput-matplotlib.axis_3">
+    <g id="fig2-throughput-xtick_7">
+     <g id="fig2-throughput-line2d_19"/>
+     <g id="fig2-throughput-text_15">
+      <text style="font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #6e6e73" x="213.725344" y="203.274" transform="rotate(-0 213.725344 203.274)">1</text>
+     </g>
+    </g>
+    <g id="fig2-throughput-xtick_8">
+     <g id="fig2-throughput-line2d_20"/>
+     <g id="fig2-throughput-text_16">
+      <text style="font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #6e6e73" x="250.64277" y="203.274" transform="rotate(-0 250.64277 203.274)">4</text>
+     </g>
+    </g>
+    <g id="fig2-throughput-xtick_9">
+     <g id="fig2-throughput-line2d_21"/>
+     <g id="fig2-throughput-text_17">
+      <text style="font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #6e6e73" x="269.101483" y="203.274" transform="rotate(-0 269.101483 203.274)">8</text>
+     </g>
+    </g>
+    <g id="fig2-throughput-xtick_10">
+     <g id="fig2-throughput-line2d_22"/>
+     <g id="fig2-throughput-text_18">
+      <text style="font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #6e6e73" x="287.560196" y="203.274" transform="rotate(-0 287.560196 203.274)">16</text>
+     </g>
+    </g>
+    <g id="fig2-throughput-xtick_11">
+     <g id="fig2-throughput-line2d_23"/>
+     <g id="fig2-throughput-text_19">
+      <text style="font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #6e6e73" x="306.01891" y="203.274" transform="rotate(-0 306.01891 203.274)">32</text>
+     </g>
+    </g>
+    <g id="fig2-throughput-xtick_12">
+     <g id="fig2-throughput-line2d_24"/>
+     <g id="fig2-throughput-text_20">
+      <text style="font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #6e6e73" x="324.477623" y="203.274" transform="rotate(-0 324.477623 203.274)">64</text>
+     </g>
+    </g>
+    <g id="fig2-throughput-text_21">
+     <text style="font-size: 10.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #6e6e73" x="277.4715" y="221.034" transform="rotate(-0 277.4715 221.034)">Concurrent requests</text>
+    </g>
+   </g>
+   <g id="fig2-throughput-matplotlib.axis_4">
+    <g id="fig2-throughput-ytick_5">
+     <g id="fig2-throughput-line2d_25">
+      <path d="M 207.782965 189.774 
+L 347.160035 189.774 
+" clip-path="url(#fig2-throughput-p1e4e335dbf)" style="fill: none; stroke: #e6e1d8; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="fig2-throughput-line2d_26"/>
+    </g>
+    <g id="fig2-throughput-ytick_6">
+     <g id="fig2-throughput-line2d_27">
+      <path d="M 207.782965 150.233706 
+L 347.160035 150.233706 
+" clip-path="url(#fig2-throughput-p1e4e335dbf)" style="fill: none; stroke: #e6e1d8; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="fig2-throughput-line2d_28"/>
+    </g>
+    <g id="fig2-throughput-ytick_7">
+     <g id="fig2-throughput-line2d_29">
+      <path d="M 207.782965 110.693412 
+L 347.160035 110.693412 
+" clip-path="url(#fig2-throughput-p1e4e335dbf)" style="fill: none; stroke: #e6e1d8; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="fig2-throughput-line2d_30"/>
+    </g>
+    <g id="fig2-throughput-ytick_8">
+     <g id="fig2-throughput-line2d_31">
+      <path d="M 207.782965 71.153118 
+L 347.160035 71.153118 
+" clip-path="url(#fig2-throughput-p1e4e335dbf)" style="fill: none; stroke: #e6e1d8; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="fig2-throughput-line2d_32"/>
+    </g>
+   </g>
+   <g id="fig2-throughput-line2d_33">
+    <path d="M 213.725344 157.746362 
+L 250.64277 124.334813 
+L 269.101483 112.868128 
+L 287.560196 115.635949 
+L 306.01891 115.83365 
+L 324.477623 118.996874 
+" clip-path="url(#fig2-throughput-p1e4e335dbf)" style="fill: none; stroke: #a3a3a8; stroke-width: 2; stroke-linecap: square"/>
+    <g clip-path="url(#fig2-throughput-p1e4e335dbf)">
+     <use xlink:href="#fig2-throughput-m10cb670410" x="213.725344" y="157.746362" style="fill: #a3a3a8; stroke: #a3a3a8"/>
+     <use xlink:href="#fig2-throughput-m10cb670410" x="250.64277" y="124.334813" style="fill: #a3a3a8; stroke: #a3a3a8"/>
+     <use xlink:href="#fig2-throughput-m10cb670410" x="269.101483" y="112.868128" style="fill: #a3a3a8; stroke: #a3a3a8"/>
+     <use xlink:href="#fig2-throughput-m10cb670410" x="287.560196" y="115.635949" style="fill: #a3a3a8; stroke: #a3a3a8"/>
+     <use xlink:href="#fig2-throughput-m10cb670410" x="306.01891" y="115.83365" style="fill: #a3a3a8; stroke: #a3a3a8"/>
+     <use xlink:href="#fig2-throughput-m10cb670410" x="324.477623" y="118.996874" style="fill: #a3a3a8; stroke: #a3a3a8"/>
+    </g>
+   </g>
+   <g id="fig2-throughput-line2d_34">
+    <path d="M 213.725344 157.54866 
+L 250.64277 105.948576 
+L 269.101483 101.796846 
+L 287.560196 99.029025 
+L 306.01891 99.424428 
+L 324.477623 101.00604 
+" clip-path="url(#fig2-throughput-p1e4e335dbf)" style="fill: none; stroke: #2c5b8a; stroke-width: 2.4; stroke-linecap: square"/>
+    <g clip-path="url(#fig2-throughput-p1e4e335dbf)">
+     <use xlink:href="#fig2-throughput-m98aba2798a" x="213.725344" y="157.54866" style="fill: #2c5b8a; stroke: #2c5b8a"/>
+     <use xlink:href="#fig2-throughput-m98aba2798a" x="250.64277" y="105.948576" style="fill: #2c5b8a; stroke: #2c5b8a"/>
+     <use xlink:href="#fig2-throughput-m98aba2798a" x="269.101483" y="101.796846" style="fill: #2c5b8a; stroke: #2c5b8a"/>
+     <use xlink:href="#fig2-throughput-m98aba2798a" x="287.560196" y="99.029025" style="fill: #2c5b8a; stroke: #2c5b8a"/>
+     <use xlink:href="#fig2-throughput-m98aba2798a" x="306.01891" y="99.424428" style="fill: #2c5b8a; stroke: #2c5b8a"/>
+     <use xlink:href="#fig2-throughput-m98aba2798a" x="324.477623" y="101.00604" style="fill: #2c5b8a; stroke: #2c5b8a"/>
+    </g>
+   </g>
+   <g id="fig2-throughput-patch_5">
+    <path d="M 207.782965 189.774 
+L 347.160035 189.774 
+" style="fill: none; stroke: #e6e1d8; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="fig2-throughput-text_22">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #2c5b8a" x="330.420001" y="104.37604" transform="rotate(-0 330.420001 104.37604)">449</text>
+   </g>
+   <g id="fig2-throughput-text_23">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #6e6e73" x="330.420001" y="122.366874" transform="rotate(-0 330.420001 122.366874)">358</text>
+   </g>
+   <g id="fig2-throughput-text_24">
+    <text style="font-size: 11px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #1d1d1f" x="207.782965" y="49.337" transform="rotate(-0 207.782965 49.337)">1K in / 8K out</text>
+   </g>
+  </g>
+  <g id="fig2-throughput-axes_3">
+   <g id="fig2-throughput-patch_6">
+    <path d="M 359.821965 189.774 
+L 499.199035 189.774 
+L 499.199035 55.337 
+L 359.821965 55.337 
+L 359.821965 189.774 
+z
+" style="fill: none"/>
+   </g>
+   <g id="fig2-throughput-matplotlib.axis_5">
+    <g id="fig2-throughput-xtick_13">
+     <g id="fig2-throughput-line2d_35"/>
+     <g id="fig2-throughput-text_25">
+      <text style="font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #6e6e73" x="365.764344" y="203.274" transform="rotate(-0 365.764344 203.274)">1</text>
+     </g>
+    </g>
+    <g id="fig2-throughput-xtick_14">
+     <g id="fig2-throughput-line2d_36"/>
+     <g id="fig2-throughput-text_26">
+      <text style="font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #6e6e73" x="402.68177" y="203.274" transform="rotate(-0 402.68177 203.274)">4</text>
+     </g>
+    </g>
+    <g id="fig2-throughput-xtick_15">
+     <g id="fig2-throughput-line2d_37"/>
+     <g id="fig2-throughput-text_27">
+      <text style="font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #6e6e73" x="421.140483" y="203.274" transform="rotate(-0 421.140483 203.274)">8</text>
+     </g>
+    </g>
+    <g id="fig2-throughput-xtick_16">
+     <g id="fig2-throughput-line2d_38"/>
+     <g id="fig2-throughput-text_28">
+      <text style="font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #6e6e73" x="439.599196" y="203.274" transform="rotate(-0 439.599196 203.274)">16</text>
+     </g>
+    </g>
+    <g id="fig2-throughput-xtick_17">
+     <g id="fig2-throughput-line2d_39"/>
+     <g id="fig2-throughput-text_29">
+      <text style="font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #6e6e73" x="458.05791" y="203.274" transform="rotate(-0 458.05791 203.274)">32</text>
+     </g>
+    </g>
+    <g id="fig2-throughput-xtick_18">
+     <g id="fig2-throughput-line2d_40"/>
+     <g id="fig2-throughput-text_30">
+      <text style="font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #6e6e73" x="476.516623" y="203.274" transform="rotate(-0 476.516623 203.274)">64</text>
+     </g>
+    </g>
+   </g>
+   <g id="fig2-throughput-matplotlib.axis_6">
+    <g id="fig2-throughput-ytick_9">
+     <g id="fig2-throughput-line2d_41">
+      <path d="M 359.821965 189.774 
+L 499.199035 189.774 
+" clip-path="url(#fig2-throughput-p9977e9b1a0)" style="fill: none; stroke: #e6e1d8; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="fig2-throughput-line2d_42"/>
+    </g>
+    <g id="fig2-throughput-ytick_10">
+     <g id="fig2-throughput-line2d_43">
+      <path d="M 359.821965 150.233706 
+L 499.199035 150.233706 
+" clip-path="url(#fig2-throughput-p9977e9b1a0)" style="fill: none; stroke: #e6e1d8; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="fig2-throughput-line2d_44"/>
+    </g>
+    <g id="fig2-throughput-ytick_11">
+     <g id="fig2-throughput-line2d_45">
+      <path d="M 359.821965 110.693412 
+L 499.199035 110.693412 
+" clip-path="url(#fig2-throughput-p9977e9b1a0)" style="fill: none; stroke: #e6e1d8; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="fig2-throughput-line2d_46"/>
+    </g>
+    <g id="fig2-throughput-ytick_12">
+     <g id="fig2-throughput-line2d_47">
+      <path d="M 359.821965 71.153118 
+L 499.199035 71.153118 
+" clip-path="url(#fig2-throughput-p9977e9b1a0)" style="fill: none; stroke: #e6e1d8; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="fig2-throughput-line2d_48"/>
+    </g>
+   </g>
+   <g id="fig2-throughput-line2d_49">
+    <path d="M 365.764344 160.118779 
+L 402.68177 122.950903 
+L 421.140483 127.695738 
+L 439.599196 127.102634 
+L 458.05791 130.66126 
+L 476.516623 129.079649 
+" clip-path="url(#fig2-throughput-p9977e9b1a0)" style="fill: none; stroke: #a3a3a8; stroke-width: 2; stroke-linecap: square"/>
+    <g clip-path="url(#fig2-throughput-p9977e9b1a0)">
+     <use xlink:href="#fig2-throughput-m10cb670410" x="365.764344" y="160.118779" style="fill: #a3a3a8; stroke: #a3a3a8"/>
+     <use xlink:href="#fig2-throughput-m10cb670410" x="402.68177" y="122.950903" style="fill: #a3a3a8; stroke: #a3a3a8"/>
+     <use xlink:href="#fig2-throughput-m10cb670410" x="421.140483" y="127.695738" style="fill: #a3a3a8; stroke: #a3a3a8"/>
+     <use xlink:href="#fig2-throughput-m10cb670410" x="439.599196" y="127.102634" style="fill: #a3a3a8; stroke: #a3a3a8"/>
+     <use xlink:href="#fig2-throughput-m10cb670410" x="458.05791" y="130.66126" style="fill: #a3a3a8; stroke: #a3a3a8"/>
+     <use xlink:href="#fig2-throughput-m10cb670410" x="476.516623" y="129.079649" style="fill: #a3a3a8; stroke: #a3a3a8"/>
+    </g>
+   </g>
+   <g id="fig2-throughput-line2d_50">
+    <path d="M 365.764344 159.723376 
+L 402.68177 119.392276 
+L 421.140483 115.438247 
+L 439.599196 116.031351 
+L 458.05791 114.44974 
+L 476.516623 115.438247 
+" clip-path="url(#fig2-throughput-p9977e9b1a0)" style="fill: none; stroke: #2c5b8a; stroke-width: 2.4; stroke-linecap: square"/>
+    <g clip-path="url(#fig2-throughput-p9977e9b1a0)">
+     <use xlink:href="#fig2-throughput-m98aba2798a" x="365.764344" y="159.723376" style="fill: #2c5b8a; stroke: #2c5b8a"/>
+     <use xlink:href="#fig2-throughput-m98aba2798a" x="402.68177" y="119.392276" style="fill: #2c5b8a; stroke: #2c5b8a"/>
+     <use xlink:href="#fig2-throughput-m98aba2798a" x="421.140483" y="115.438247" style="fill: #2c5b8a; stroke: #2c5b8a"/>
+     <use xlink:href="#fig2-throughput-m98aba2798a" x="439.599196" y="116.031351" style="fill: #2c5b8a; stroke: #2c5b8a"/>
+     <use xlink:href="#fig2-throughput-m98aba2798a" x="458.05791" y="114.44974" style="fill: #2c5b8a; stroke: #2c5b8a"/>
+     <use xlink:href="#fig2-throughput-m98aba2798a" x="476.516623" y="115.438247" style="fill: #2c5b8a; stroke: #2c5b8a"/>
+    </g>
+   </g>
+   <g id="fig2-throughput-patch_7">
+    <path d="M 359.821965 189.774 
+L 499.199035 189.774 
+" style="fill: none; stroke: #e6e1d8; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="fig2-throughput-text_31">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #2c5b8a" x="482.459001" y="118.808247" transform="rotate(-0 482.459001 118.808247)">376</text>
+   </g>
+   <g id="fig2-throughput-text_32">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #6e6e73" x="482.459001" y="132.449649" transform="rotate(-0 482.459001 132.449649)">307</text>
+   </g>
+   <g id="fig2-throughput-text_33">
+    <text style="font-size: 11px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #1d1d1f" x="359.821965" y="49.337" transform="rotate(-0 359.821965 49.337)">8K in / 1K out</text>
+   </g>
+  </g>
+  <g id="fig2-throughput-legend_1">
+   <g id="fig2-throughput-line2d_51">
+    <path d="M 164.511122 14.625 
+L 175.011122 14.625 
+L 185.511122 14.625 
+" style="fill: none; stroke: #a3a3a8; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="fig2-throughput-text_34">
+    <text style="font-size: 10.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #1d1d1f" x="193.911122" y="18.3" transform="rotate(-0 193.911122 18.3)">Official</text>
+   </g>
+   <g id="fig2-throughput-line2d_52">
+    <path d="M 245.864794 14.625 
+L 256.364794 14.625 
+L 266.864794 14.625 
+" style="fill: none; stroke: #2c5b8a; stroke-width: 2.4; stroke-linecap: square"/>
+   </g>
+   <g id="fig2-throughput-text_35">
+    <text style="font-size: 10.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #1d1d1f" x="275.264794" y="18.3" transform="rotate(-0 275.264794 18.3)">End-to-end NVFP4</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="fig2-throughput-p750ba7ecad">
+   <rect x="55.743965" y="55.337" width="139.377069" height="134.437"/>
+  </clipPath>
+  <clipPath id="fig2-throughput-p1e4e335dbf">
+   <rect x="207.782965" y="55.337" width="139.377069" height="134.437"/>
+  </clipPath>
+  <clipPath id="fig2-throughput-p9977e9b1a0">
+   <rect x="359.821965" y="55.337" width="139.377069" height="134.437"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,115 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 518.4 187.38" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-26T06:43:35.403088</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="fig4-dspark-figure_1">
+  <g id="fig4-dspark-patch_1">
+   <path d="M 0 187.38 
+L 518.4 187.38 
+L 518.4 0 
+L 0 0 
+L 0 187.38 
+z
+" style="fill: none"/>
+  </g>
+  <g id="fig4-dspark-axes_1">
+   <g id="fig4-dspark-patch_2">
+    <path d="M 159.761925 183.78 
+L 494.561925 183.78 
+L 494.561925 3.6 
+L 159.761925 3.6 
+L 159.761925 183.78 
+z
+" style="fill: none"/>
+   </g>
+   <g id="fig4-dspark-patch_3">
+    <path d="M 159.761925 39.09 
+L 318.299572 39.09 
+L 318.299572 11.79 
+L 159.761925 11.79 
+z
+" clip-path="url(#fig4-dspark-p44b5b46b36)" style="fill: #a3a3a8"/>
+   </g>
+   <g id="fig4-dspark-patch_4">
+    <path d="M 159.761925 84.59 
+L 321.25369 84.59 
+L 321.25369 57.29 
+L 159.761925 57.29 
+z
+" clip-path="url(#fig4-dspark-p44b5b46b36)" style="fill: #2c5b8a"/>
+   </g>
+   <g id="fig4-dspark-patch_5">
+    <path d="M 159.761925 175.59 
+L 440.403101 175.59 
+L 440.403101 148.29 
+L 159.761925 148.29 
+z
+" clip-path="url(#fig4-dspark-p44b5b46b36)" style="fill: #2c5b8a"/>
+   </g>
+   <g id="fig4-dspark-matplotlib.axis_1"/>
+   <g id="fig4-dspark-matplotlib.axis_2">
+    <g id="fig4-dspark-ytick_1">
+     <g id="fig4-dspark-line2d_1"/>
+    </g>
+    <g id="fig4-dspark-ytick_2">
+     <g id="fig4-dspark-line2d_2"/>
+    </g>
+    <g id="fig4-dspark-ytick_3">
+     <g id="fig4-dspark-line2d_3"/>
+    </g>
+    <g id="fig4-dspark-ytick_4">
+     <g id="fig4-dspark-line2d_4"/>
+    </g>
+   </g>
+   <g id="fig4-dspark-text_1">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #6e6e73" x="323.223101" y="28.81" transform="rotate(-0 323.223101 28.81)">161 tok/s</text>
+   </g>
+   <g id="fig4-dspark-text_2">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #2c5b8a" x="326.177219" y="74.31" transform="rotate(-0 326.177219 74.31)">164 tok/s</text>
+   </g>
+   <g id="fig4-dspark-text_3">
+    <text style="font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #6e6e73" x="163.700749" y="119.81" transform="rotate(-0 163.700749 119.81)">×  Run fails: sessions exceed its 47K-token KV cache</text>
+   </g>
+   <g id="fig4-dspark-text_4">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #2c5b8a" x="445.326631" y="165.31" transform="rotate(-0 445.326631 165.31)">285 tok/s</text>
+   </g>
+   <g id="fig4-dspark-text_5">
+    <text style="font-size: 10.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: end; fill: #1d1d1f" x="155.744325" y="28.9785" transform="rotate(-0 155.744325 28.9785)">Official · Standard</text>
+   </g>
+   <g id="fig4-dspark-text_6">
+    <text style="font-size: 10.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: end; fill: #1d1d1f" x="155.744325" y="74.4785" transform="rotate(-0 155.744325 74.4785)">End-to-end NVFP4 · Standard</text>
+   </g>
+   <g id="fig4-dspark-text_7">
+    <text style="font-size: 10.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: end; fill: #1d1d1f" x="155.744325" y="113.1535" transform="rotate(-0 155.744325 113.1535)">Official · w/ DSpark</text>
+   </g>
+   <g id="fig4-dspark-text_8">
+    <text style="font-size: 9.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: end; fill: #6e6e73" x="155.744325" y="126.4665" transform="rotate(-0 155.744325 126.4665)">(speculative decoding)</text>
+   </g>
+   <g id="fig4-dspark-text_9">
+    <text style="font-size: 10.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: end; fill: #1d1d1f" x="155.744325" y="158.6535" transform="rotate(-0 155.744325 158.6535)">End-to-end NVFP4 · w/ DSpark</text>
+   </g>
+   <g id="fig4-dspark-text_10">
+    <text style="font-size: 9.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: end; fill: #6e6e73" x="155.744325" y="171.9665" transform="rotate(-0 155.744325 171.9665)">(speculative decoding)</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="fig4-dspark-p44b5b46b36">
+   <rect x="159.761925" y="3.6" width="334.8" height="180.18"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -386,6 +386,67 @@
   padding: 4px 0;
 }
 
+/* Figures with captions (charts are inline SVG so they use the page fonts) */
+.post-content figure {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.post-content .fig-art svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.post-content figcaption {
+  margin-top: 10px;
+  font-family: var(--sans);
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+.post-content figcaption strong {
+  color: var(--ink);
+}
+
+/* TL;DR box */
+.post-content blockquote.tldr {
+  padding: 14px 18px 14px 20px;
+  border-left: 3px solid var(--accent);
+  border-radius: 0 8px 8px 0;
+  background: var(--accent-soft);
+  font-family: var(--sans);
+  font-size: 16.5px;
+  font-style: normal;
+  color: var(--body);
+}
+
+.post-content blockquote.tldr p {
+  margin: 0 0 6px;
+}
+
+.post-content blockquote.tldr ul {
+  margin: 0;
+}
+
+/* Citations and the reference list they link to */
+.post-content a.cite {
+  text-decoration: none;
+  font-family: var(--sans);
+  font-size: 0.9em;
+}
+
+.post-content ol.refs li {
+  scroll-margin-top: 24px;
+  font-size: 16.5px;
+}
+
+.post-content ol.refs li:target {
+  background: var(--accent-soft);
+  border-radius: 4px;
+}
+
 /* Mobile */
 @media (max-width: 640px) {
   .blog-head {

@@ -1,0 +1,136 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 518.4 214.244" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-26T06:43:34.970705</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="fig1-kv-figure_1">
+  <g id="fig1-kv-patch_1">
+   <path d="M 0 214.244 
+L 518.4 214.244 
+L 518.4 0 
+L 0 0 
+L 0 214.244 
+z
+" style="fill: none"/>
+  </g>
+  <g id="fig1-kv-axes_1">
+   <g id="fig1-kv-patch_2">
+    <path d="M 122.151555 194.721 
+L 490.431555 194.721 
+L 490.431555 31.173 
+L 122.151555 31.173 
+L 122.151555 194.721 
+z
+" style="fill: none"/>
+   </g>
+   <g id="fig1-kv-patch_3">
+    <path d="M 122.151555 69.368379 
+L 322.967273 69.368379 
+L 322.967273 38.607 
+L 122.151555 38.607 
+z
+" clip-path="url(#fig1-kv-pc20a9be365)" style="fill: #a3a3a8"/>
+   </g>
+   <g id="fig1-kv-patch_4">
+    <path d="M 122.151555 101.838724 
+L 411.904438 101.838724 
+L 411.904438 71.077345 
+L 122.151555 71.077345 
+z
+" clip-path="url(#fig1-kv-pc20a9be365)" style="fill: #2c5b8a"/>
+   </g>
+   <g id="fig1-kv-patch_5">
+    <path d="M 122.151555 154.816655 
+L 238.429827 154.816655 
+L 238.429827 124.055276 
+L 122.151555 124.055276 
+z
+" clip-path="url(#fig1-kv-pc20a9be365)" style="fill: #a3a3a8"/>
+   </g>
+   <g id="fig1-kv-patch_6">
+    <path d="M 122.151555 187.287 
+L 319.824617 187.287 
+L 319.824617 156.525621 
+L 122.151555 156.525621 
+z
+" clip-path="url(#fig1-kv-pc20a9be365)" style="fill: #2c5b8a"/>
+   </g>
+   <g id="fig1-kv-matplotlib.axis_1">
+    <g id="fig1-kv-text_1">
+     <text style="font-size: 10.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #6e6e73" x="306.291555" y="207.221" transform="rotate(-0 306.291555 207.221)">KV cache capacity (tokens)</text>
+    </g>
+   </g>
+   <g id="fig1-kv-matplotlib.axis_2">
+    <g id="fig1-kv-ytick_1">
+     <g id="fig1-kv-line2d_1"/>
+    </g>
+    <g id="fig1-kv-ytick_2">
+     <g id="fig1-kv-line2d_2"/>
+    </g>
+   </g>
+   <g id="fig1-kv-text_2">
+    <text style="font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #6e6e73" x="326.650073" y="57.35769" transform="rotate(-0 326.650073 57.35769)">81,792</text>
+   </g>
+   <g id="fig1-kv-text_3">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #2c5b8a" x="415.587238" y="89.828034" transform="rotate(-0 415.587238 89.828034)">118,016  (+44%)</text>
+   </g>
+   <g id="fig1-kv-text_4">
+    <text style="font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #6e6e73" x="242.112627" y="142.805966" transform="rotate(-0 242.112627 142.805966)">47,360</text>
+   </g>
+   <g id="fig1-kv-text_5">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #2c5b8a" x="323.507417" y="175.27631" transform="rotate(-0 323.507417 175.27631)">80,512  (+70%)</text>
+   </g>
+   <g id="fig1-kv-text_6">
+    <text style="font-size: 10.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: end; fill: #1d1d1f" x="117.732195" y="73.761362" transform="rotate(-0 117.732195 73.761362)">Standard</text>
+   </g>
+   <g id="fig1-kv-text_7">
+    <text style="font-size: 10.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: end; fill: #1d1d1f" x="117.732195" y="153.228259" transform="rotate(-0 117.732195 153.228259)">w/ DSpark</text>
+   </g>
+   <g id="fig1-kv-text_8">
+    <text style="font-size: 9.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: end; fill: #6e6e73" x="117.732195" y="164.854017" transform="rotate(-0 117.732195 164.854017)">(speculative decoding)</text>
+   </g>
+   <g id="fig1-kv-legend_1">
+    <g id="fig1-kv-patch_7">
+     <path d="M 192.527711 18.3 
+L 213.527711 18.3 
+L 213.527711 10.95 
+L 192.527711 10.95 
+z
+" style="fill: #a3a3a8; stroke: #a3a3a8; stroke-linejoin: miter"/>
+    </g>
+    <g id="fig1-kv-text_9">
+     <text style="font-size: 10.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #1d1d1f" x="221.927711" y="18.3" transform="rotate(-0 221.927711 18.3)">Official</text>
+    </g>
+    <g id="fig1-kv-patch_8">
+     <path d="M 273.881383 18.3 
+L 294.881383 18.3 
+L 294.881383 10.95 
+L 273.881383 10.95 
+z
+" style="fill: #2c5b8a; stroke: #2c5b8a; stroke-linejoin: miter"/>
+    </g>
+    <g id="fig1-kv-text_10">
+     <text style="font-size: 10.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #1d1d1f" x="303.281383" y="18.3" transform="rotate(-0 303.281383 18.3)">End-to-end NVFP4</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="fig1-kv-pc20a9be365">
+   <rect x="122.151555" y="31.173" width="368.28" height="163.548"/>
+  </clipPath>
+ </defs>
+</svg>

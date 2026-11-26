@@ -1,0 +1,255 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 518.4 234.6657" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-26T06:43:35.193030</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="fig3-agent-latency-figure_1">
+  <g id="fig3-agent-latency-patch_1">
+   <path d="M 0 234.6657 
+L 518.4 234.6657 
+L 518.4 -0 
+L 0 -0 
+L 0 234.6657 
+z
+" style="fill: none"/>
+  </g>
+  <g id="fig3-agent-latency-axes_1">
+   <g id="fig3-agent-latency-patch_2">
+    <path d="M 82.4415 191.949 
+L 467.4615 191.949 
+L 467.4615 31.173 
+L 82.4415 31.173 
+L 82.4415 191.949 
+z
+" style="fill: none"/>
+   </g>
+   <g id="fig3-agent-latency-matplotlib.axis_1">
+    <g id="fig3-agent-latency-xtick_1">
+     <g id="fig3-agent-latency-line2d_1"/>
+     <g id="fig3-agent-latency-text_1">
+      <text style="font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #6e6e73" x="131.592989" y="205.449" transform="rotate(-0 131.592989 205.449)">mean</text>
+     </g>
+    </g>
+    <g id="fig3-agent-latency-xtick_2">
+     <g id="fig3-agent-latency-line2d_2"/>
+     <g id="fig3-agent-latency-text_2">
+      <text style="font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #6e6e73" x="213.512138" y="205.449" transform="rotate(-0 213.512138 205.449)">p90</text>
+     </g>
+    </g>
+    <g id="fig3-agent-latency-xtick_3">
+     <g id="fig3-agent-latency-line2d_3"/>
+     <g id="fig3-agent-latency-text_3">
+      <text style="font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #6e6e73" x="336.390862" y="205.449" transform="rotate(-0 336.390862 205.449)">mean</text>
+     </g>
+    </g>
+    <g id="fig3-agent-latency-xtick_4">
+     <g id="fig3-agent-latency-line2d_4"/>
+     <g id="fig3-agent-latency-text_4">
+      <text style="font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #6e6e73" x="418.310011" y="205.449" transform="rotate(-0 418.310011 205.449)">p90</text>
+     </g>
+    </g>
+   </g>
+   <g id="fig3-agent-latency-matplotlib.axis_2">
+    <g id="fig3-agent-latency-ytick_1">
+     <g id="fig3-agent-latency-line2d_5">
+      <path d="M 82.4415 191.949 
+L 467.4615 191.949 
+" clip-path="url(#fig3-agent-latency-pb3d24f1ef2)" style="fill: none; stroke: #e6e1d8; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="fig3-agent-latency-line2d_6"/>
+     <g id="fig3-agent-latency-text_5">
+      <text style="font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: end; fill: #6e6e73" x="78.9415" y="196.949" transform="rotate(-0 78.9415 196.949)">0</text>
+     </g>
+    </g>
+    <g id="fig3-agent-latency-ytick_2">
+     <g id="fig3-agent-latency-line2d_7">
+      <path d="M 82.4415 156.221 
+L 467.4615 156.221 
+" clip-path="url(#fig3-agent-latency-pb3d24f1ef2)" style="fill: none; stroke: #e6e1d8; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="fig3-agent-latency-line2d_8"/>
+     <g id="fig3-agent-latency-text_6">
+      <text style="font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: end; fill: #6e6e73" x="78.9415" y="161.221" transform="rotate(-0 78.9415 161.221)">5</text>
+     </g>
+    </g>
+    <g id="fig3-agent-latency-ytick_3">
+     <g id="fig3-agent-latency-line2d_9">
+      <path d="M 82.4415 120.493 
+L 467.4615 120.493 
+" clip-path="url(#fig3-agent-latency-pb3d24f1ef2)" style="fill: none; stroke: #e6e1d8; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="fig3-agent-latency-line2d_10"/>
+     <g id="fig3-agent-latency-text_7">
+      <text style="font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: end; fill: #6e6e73" x="78.9415" y="125.493" transform="rotate(-0 78.9415 125.493)">10</text>
+     </g>
+    </g>
+    <g id="fig3-agent-latency-ytick_4">
+     <g id="fig3-agent-latency-line2d_11">
+      <path d="M 82.4415 84.765 
+L 467.4615 84.765 
+" clip-path="url(#fig3-agent-latency-pb3d24f1ef2)" style="fill: none; stroke: #e6e1d8; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="fig3-agent-latency-line2d_12"/>
+     <g id="fig3-agent-latency-text_8">
+      <text style="font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: end; fill: #6e6e73" x="78.9415" y="89.765" transform="rotate(-0 78.9415 89.765)">15</text>
+     </g>
+    </g>
+    <g id="fig3-agent-latency-ytick_5">
+     <g id="fig3-agent-latency-line2d_13">
+      <path d="M 82.4415 49.037 
+L 467.4615 49.037 
+" clip-path="url(#fig3-agent-latency-pb3d24f1ef2)" style="fill: none; stroke: #e6e1d8; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="fig3-agent-latency-line2d_14"/>
+     <g id="fig3-agent-latency-text_9">
+      <text style="font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: end; fill: #6e6e73" x="78.9415" y="54.037" transform="rotate(-0 78.9415 54.037)">20</text>
+     </g>
+    </g>
+    <g id="fig3-agent-latency-text_10">
+     <text style="font-size: 10.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #6e6e73" x="61.577875" y="111.561" transform="rotate(-90 61.577875 111.561)">Seconds</text>
+    </g>
+   </g>
+   <g id="fig3-agent-latency-patch_3">
+    <path d="M 101.282904 191.949 
+L 130.773798 191.949 
+L 130.773798 164.43844 
+L 101.282904 164.43844 
+z
+" clip-path="url(#fig3-agent-latency-pb3d24f1ef2)" style="fill: #a3a3a8"/>
+   </g>
+   <g id="fig3-agent-latency-patch_4">
+    <path d="M 132.412181 191.949 
+L 161.903074 191.949 
+L 161.903074 178.586728 
+L 132.412181 178.586728 
+z
+" clip-path="url(#fig3-agent-latency-pb3d24f1ef2)" style="fill: #2c5b8a"/>
+   </g>
+   <g id="fig3-agent-latency-patch_5">
+    <path d="M 183.202053 191.949 
+L 212.692947 191.949 
+L 212.692947 116.56292 
+L 183.202053 116.56292 
+z
+" clip-path="url(#fig3-agent-latency-pb3d24f1ef2)" style="fill: #a3a3a8"/>
+   </g>
+   <g id="fig3-agent-latency-patch_6">
+    <path d="M 214.33133 191.949 
+L 243.822223 191.949 
+L 243.822223 158.650504 
+L 214.33133 158.650504 
+z
+" clip-path="url(#fig3-agent-latency-pb3d24f1ef2)" style="fill: #2c5b8a"/>
+   </g>
+   <g id="fig3-agent-latency-patch_7">
+    <path d="M 306.080777 191.949 
+L 335.57167 191.949 
+L 335.57167 135.998952 
+L 306.080777 135.998952 
+z
+" clip-path="url(#fig3-agent-latency-pb3d24f1ef2)" style="fill: #a3a3a8"/>
+   </g>
+   <g id="fig3-agent-latency-patch_8">
+    <path d="M 337.210053 191.949 
+L 366.700947 191.949 
+L 366.700947 149.861416 
+L 337.210053 149.861416 
+z
+" clip-path="url(#fig3-agent-latency-pb3d24f1ef2)" style="fill: #2c5b8a"/>
+   </g>
+   <g id="fig3-agent-latency-patch_9">
+    <path d="M 387.999926 191.949 
+L 417.490819 191.949 
+L 417.490819 47.750792 
+L 387.999926 47.750792 
+z
+" clip-path="url(#fig3-agent-latency-pb3d24f1ef2)" style="fill: #a3a3a8"/>
+   </g>
+   <g id="fig3-agent-latency-patch_10">
+    <path d="M 419.129202 191.949 
+L 448.620096 191.949 
+L 448.620096 102.128808 
+L 419.129202 102.128808 
+z
+" clip-path="url(#fig3-agent-latency-pb3d24f1ef2)" style="fill: #2c5b8a"/>
+   </g>
+   <g id="fig3-agent-latency-patch_11">
+    <path d="M 82.4415 191.949 
+L 467.4615 191.949 
+" style="fill: none; stroke: #e6e1d8; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="fig3-agent-latency-text_11">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #6e6e73" x="116.028351" y="159.03476" transform="rotate(-0 116.028351 159.03476)">3.9 s</text>
+   </g>
+   <g id="fig3-agent-latency-text_12">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #2c5b8a" x="147.157628" y="173.183048" transform="rotate(-0 147.157628 173.183048)">1.9 s</text>
+   </g>
+   <g id="fig3-agent-latency-text_13">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #6e6e73" x="197.9475" y="111.15924" transform="rotate(-0 197.9475 111.15924)">10.6 s</text>
+   </g>
+   <g id="fig3-agent-latency-text_14">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #2c5b8a" x="229.076777" y="153.246824" transform="rotate(-0 229.076777 153.246824)">4.7 s</text>
+   </g>
+   <g id="fig3-agent-latency-text_15">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #6e6e73" x="320.826223" y="130.595272" transform="rotate(-0 320.826223 130.595272)">7.8 s</text>
+   </g>
+   <g id="fig3-agent-latency-text_16">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #2c5b8a" x="351.9555" y="144.457736" transform="rotate(-0 351.9555 144.457736)">5.9 s</text>
+   </g>
+   <g id="fig3-agent-latency-text_17">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #6e6e73" x="402.745372" y="42.347112" transform="rotate(-0 402.745372 42.347112)">20.2 s</text>
+   </g>
+   <g id="fig3-agent-latency-text_18">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #2c5b8a" x="433.874649" y="96.725128" transform="rotate(-0 433.874649 96.725128)">12.6 s</text>
+   </g>
+   <g id="fig3-agent-latency-text_19">
+    <text style="font-size: 10.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="172.552564" y="227.6427" transform="rotate(-0 172.552564 227.6427)">Time to first token</text>
+   </g>
+   <g id="fig3-agent-latency-text_20">
+    <text style="font-size: 10.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: middle; fill: #1d1d1f" x="377.350436" y="227.6427" transform="rotate(-0 377.350436 227.6427)">Request latency</text>
+   </g>
+   <g id="fig3-agent-latency-legend_1">
+    <g id="fig3-agent-latency-patch_12">
+     <path d="M 179.601656 18.3 
+L 200.601656 18.3 
+L 200.601656 10.95 
+L 179.601656 10.95 
+z
+" style="fill: #a3a3a8; stroke: #a3a3a8; stroke-linejoin: miter"/>
+    </g>
+    <g id="fig3-agent-latency-text_21">
+     <text style="font-size: 10.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #1d1d1f" x="209.001656" y="18.3" transform="rotate(-0 209.001656 18.3)">Official</text>
+    </g>
+    <g id="fig3-agent-latency-patch_13">
+     <path d="M 260.955328 18.3 
+L 281.955328 18.3 
+L 281.955328 10.95 
+L 260.955328 10.95 
+z
+" style="fill: #2c5b8a; stroke: #2c5b8a; stroke-linejoin: miter"/>
+    </g>
+    <g id="fig3-agent-latency-text_22">
+     <text style="font-size: 10.5px; font-family: 'Source Sans 3', sans-serif; text-anchor: start; fill: #1d1d1f" x="290.355328" y="18.3" transform="rotate(-0 290.355328 18.3)">End-to-end NVFP4</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="fig3-agent-latency-pb3d24f1ef2">
+   <rect x="82.4415" y="31.173" width="385.02" height="160.776"/>
+  </clipPath>
+ </defs>
+</svg>
